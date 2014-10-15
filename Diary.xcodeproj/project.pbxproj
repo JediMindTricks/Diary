@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9266FBB01956424B00FC5B29 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9266FBAF1956424B00FC5B29 /* QuartzCore.framework */; };
+		9266FBB2195647CA00FC5B29 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9266FBB1195647CA00FC5B29 /* CoreLocation.framework */; };
+		9299C0041953D16B00CCAC20 /* THNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9299C0031953D16B00CCAC20 /* THNavigationController.m */; };
+		9299C0091953D7A700CCAC20 /* THEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9299C0081953D7A700CCAC20 /* THEntryCell.m */; };
+		92ACF483194C6AAE00F036CB /* THCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 92ACF482194C6AAE00F036CB /* THCoreDataStack.m */; };
+		92ACF486194D0A6400F036CB /* THDiaryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 92ACF485194D0A6400F036CB /* THDiaryEntry.m */; };
+		92ACF488194DE90200F036CB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92ACF487194DE90200F036CB /* MainStoryboard.storyboard */; };
+		92ACF48B194E3E9C00F036CB /* THNewEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92ACF48A194E3E9C00F036CB /* THNewEntryViewController.m */; };
+		92ACF48E194E583D00F036CB /* THEntryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92ACF48D194E583D00F036CB /* THEntryListViewController.m */; };
+		92ACF490194E593C00F036CB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92ACF48F194E593C00F036CB /* CoreData.framework */; };
 		92C5140B194952CD00C8AB96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C5140A194952CD00C8AB96 /* main.m */; };
 		92C5140E194952CD00C8AB96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C5140D194952CD00C8AB96 /* AppDelegate.m */; };
 		92C51411194952CD00C8AB96 /* Diary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92C5140F194952CD00C8AB96 /* Diary.xcdatamodeld */; };
@@ -15,6 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9266FBAD1956422C00FC5B29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92C513FD194952CD00C8AB96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92C51404194952CD00C8AB96;
+			remoteInfo = Diary;
+		};
 		92C51419194952CD00C8AB96 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 92C513FD194952CD00C8AB96 /* Project object */;
@@ -25,6 +42,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9266FBAF1956424B00FC5B29 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9266FBB1195647CA00FC5B29 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9299C0021953D16B00CCAC20 /* THNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNavigationController.h; sourceTree = "<group>"; };
+		9299C0031953D16B00CCAC20 /* THNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THNavigationController.m; sourceTree = "<group>"; };
+		9299C0071953D7A700CCAC20 /* THEntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THEntryCell.h; sourceTree = "<group>"; };
+		9299C0081953D7A700CCAC20 /* THEntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THEntryCell.m; sourceTree = "<group>"; };
+		92ACF481194C6AAE00F036CB /* THCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCoreDataStack.h; sourceTree = "<group>"; };
+		92ACF482194C6AAE00F036CB /* THCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCoreDataStack.m; sourceTree = "<group>"; };
+		92ACF484194D0A6400F036CB /* THDiaryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THDiaryEntry.h; sourceTree = "<group>"; };
+		92ACF485194D0A6400F036CB /* THDiaryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THDiaryEntry.m; sourceTree = "<group>"; };
+		92ACF487194DE90200F036CB /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		92ACF489194E3E9C00F036CB /* THNewEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNewEntryViewController.h; sourceTree = "<group>"; };
+		92ACF48A194E3E9C00F036CB /* THNewEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THNewEntryViewController.m; sourceTree = "<group>"; };
+		92ACF48C194E583D00F036CB /* THEntryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THEntryListViewController.h; sourceTree = "<group>"; };
+		92ACF48D194E583D00F036CB /* THEntryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THEntryListViewController.m; sourceTree = "<group>"; };
+		92ACF48F194E593C00F036CB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		92C51405194952CD00C8AB96 /* Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C51409194952CD00C8AB96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92C5140A194952CD00C8AB96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +75,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9266FBB2195647CA00FC5B29 /* CoreLocation.framework in Frameworks */,
+				9266FBB01956424B00FC5B29 /* QuartzCore.framework in Frameworks */,
+				92ACF490194E593C00F036CB /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,10 +91,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9266FBAC1956026D00FC5B29 /* Data Classes */ = {
+			isa = PBXGroup;
+			children = (
+				92ACF484194D0A6400F036CB /* THDiaryEntry.h */,
+				92ACF485194D0A6400F036CB /* THDiaryEntry.m */,
+			);
+			name = "Data Classes";
+			sourceTree = "<group>";
+		};
+		9299C0051953D30000CCAC20 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				92ACF489194E3E9C00F036CB /* THNewEntryViewController.h */,
+				92ACF48A194E3E9C00F036CB /* THNewEntryViewController.m */,
+				92ACF48C194E583D00F036CB /* THEntryListViewController.h */,
+				92ACF48D194E583D00F036CB /* THEntryListViewController.m */,
+				9299C0021953D16B00CCAC20 /* THNavigationController.h */,
+				9299C0031953D16B00CCAC20 /* THNavigationController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9299C0061953D30F00CCAC20 /* Core Data Classes */ = {
+			isa = PBXGroup;
+			children = (
+				92ACF481194C6AAE00F036CB /* THCoreDataStack.h */,
+				92ACF482194C6AAE00F036CB /* THCoreDataStack.m */,
+			);
+			name = "Core Data Classes";
+			sourceTree = "<group>";
+		};
 		92C513FC194952CD00C8AB96 = {
 			isa = PBXGroup;
 			children = (
 				92C51407194952CD00C8AB96 /* Diary */,
+				92C51408194952CD00C8AB96 /* Supporting Files */,
 				92C5141B194952CD00C8AB96 /* DiaryTests */,
 				92C51406194952CD00C8AB96 /* Products */,
 			);
@@ -80,7 +148,12 @@
 				92C5140D194952CD00C8AB96 /* AppDelegate.m */,
 				92C51412194952CD00C8AB96 /* Images.xcassets */,
 				92C5140F194952CD00C8AB96 /* Diary.xcdatamodeld */,
-				92C51408194952CD00C8AB96 /* Supporting Files */,
+				92ACF487194DE90200F036CB /* MainStoryboard.storyboard */,
+				9266FBAC1956026D00FC5B29 /* Data Classes */,
+				9299C0061953D30F00CCAC20 /* Core Data Classes */,
+				9299C0051953D30000CCAC20 /* Controllers */,
+				9299C0071953D7A700CCAC20 /* THEntryCell.h */,
+				9299C0081953D7A700CCAC20 /* THEntryCell.m */,
 			);
 			path = Diary;
 			sourceTree = "<group>";
@@ -88,10 +161,14 @@
 		92C51408194952CD00C8AB96 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9266FBB1195647CA00FC5B29 /* CoreLocation.framework */,
+				9266FBAF1956424B00FC5B29 /* QuartzCore.framework */,
+				92ACF48F194E593C00F036CB /* CoreData.framework */,
 				92C51409194952CD00C8AB96 /* Info.plist */,
 				92C5140A194952CD00C8AB96 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = Diary;
 			sourceTree = "<group>";
 		};
 		92C5141B194952CD00C8AB96 /* DiaryTests */ = {
@@ -143,6 +220,7 @@
 			);
 			dependencies = (
 				92C5141A194952CD00C8AB96 /* PBXTargetDependency */,
+				9266FBAE1956422C00FC5B29 /* PBXTargetDependency */,
 			);
 			name = DiaryTests;
 			productName = DiaryTests;
@@ -190,6 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92ACF488194DE90200F036CB /* MainStoryboard.storyboard in Resources */,
 				92C51413194952CD00C8AB96 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,9 +287,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92ACF48E194E583D00F036CB /* THEntryListViewController.m in Sources */,
+				92ACF48B194E3E9C00F036CB /* THNewEntryViewController.m in Sources */,
 				92C51411194952CD00C8AB96 /* Diary.xcdatamodeld in Sources */,
+				9299C0041953D16B00CCAC20 /* THNavigationController.m in Sources */,
+				92ACF483194C6AAE00F036CB /* THCoreDataStack.m in Sources */,
 				92C5140E194952CD00C8AB96 /* AppDelegate.m in Sources */,
 				92C5140B194952CD00C8AB96 /* main.m in Sources */,
+				9299C0091953D7A700CCAC20 /* THEntryCell.m in Sources */,
+				92ACF486194D0A6400F036CB /* THDiaryEntry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +310,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9266FBAE1956422C00FC5B29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92C51404194952CD00C8AB96 /* Diary */;
+			targetProxy = 9266FBAD1956422C00FC5B29 /* PBXContainerItemProxy */;
+		};
 		92C5141A194952CD00C8AB96 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 92C51404194952CD00C8AB96 /* Diary */;
@@ -315,6 +405,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Diary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -326,6 +417,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Diary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -344,6 +436,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = DiaryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,6 +453,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = DiaryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -386,6 +480,7 @@
 				92C51424194952CD00C8AB96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92C51425194952CD00C8AB96 /* Build configuration list for PBXNativeTarget "DiaryTests" */ = {
 			isa = XCConfigurationList;
@@ -394,6 +489,7 @@
 				92C51427194952CD00C8AB96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
