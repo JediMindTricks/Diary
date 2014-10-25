@@ -116,6 +116,9 @@
             [self.tableView reloadRowsAtIndexPaths:@[indexPath]
                                   withRowAnimation:UITableViewRowAnimationAutomatic];
             break;
+            
+        default:
+            break;
 
     }
 }
@@ -134,6 +137,9 @@
         case NSFetchedResultsChangeDelete:
             [self.tableView deleteSections:[NSIndexSet indexSetWithIndex:sectionIndex]
                           withRowAnimation:UITableViewRowAnimationAutomatic];
+            
+        default:
+            break;
 
     }
 }

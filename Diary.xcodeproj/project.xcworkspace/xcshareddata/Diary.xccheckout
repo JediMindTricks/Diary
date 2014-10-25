@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>6D051420-3A9F-4318-A766-ED46686C1D56</string>
+	<string>76A33617-2E3D-4A45-B93E-CC897773711B</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Diary</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>EA07CA4A-F0E0-4F3C-95CF-6471FEE5ED40</key>
-		<string>https://github.com/iamtonyarmstrong/Diary.git</string>
+		<key>4273CEC50122B72A2C824D9541DA098249A06869</key>
+		<string>https://github.com/JediMindTricks/Diary.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Diary.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>EA07CA4A-F0E0-4F3C-95CF-6471FEE5ED40</key>
+		<key>4273CEC50122B72A2C824D9541DA098249A06869</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/iamtonyarmstrong/Diary.git</string>
+	<string>https://github.com/JediMindTricks/Diary.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>EA07CA4A-F0E0-4F3C-95CF-6471FEE5ED40</string>
+	<string>4273CEC50122B72A2C824D9541DA098249A06869</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>EA07CA4A-F0E0-4F3C-95CF-6471FEE5ED40</string>
+			<string>4273CEC50122B72A2C824D9541DA098249A06869</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Diary</string>
 		</dict>
