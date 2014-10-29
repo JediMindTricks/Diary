@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
-        <!--Diary Entries-->
+        <!--Timeline-->
         <scene sceneID="wgf-zG-jlC">
             <objects>
                 <tableViewController id="XKo-J1-aqI" customClass="THEntryListViewController" sceneMemberID="viewController">
@@ -74,7 +74,7 @@
                             <outlet property="delegate" destination="XKo-J1-aqI" id="jEH-Qo-bit"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Diary Entries" id="9FU-dk-ayM">
+                    <navigationItem key="navigationItem" title="Timeline" id="9FU-dk-ayM">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="vuq-6l-rw7">
                             <connections>
                                 <segue destination="tT4-XJ-sL9" kind="modal" id="WhT-wF-v45"/>
